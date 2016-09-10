@@ -1,0 +1,3 @@
+[submodule "MyPHP"]
+	path = MyPHP
+	url = https://github.com/LiJohnson/MyPHP.git
