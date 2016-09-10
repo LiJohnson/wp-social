@@ -15,12 +15,6 @@
 		echo '<script>location.href="'. menu_page_url(SOCIAL_MENU_SLUG,false) .'";</script>';
 		exit();
 	}
-	
-	$client = new SaeTClientV2( $option['wb_app_key']  , $option['wb_app_secret'] , $option['wb_token']['access_token']);
-	$client->set_debug(true);
-//	var_dump($client);
-	$res = $client->update('abs' . time());
-	var_dump($res);
 
 ?>
 
