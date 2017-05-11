@@ -12,7 +12,7 @@ define('SOCIAL_MENU_SLUG', 'WP-SOCIAL');
 define('SOCIAL_KEY', 'social');
 
 add_action('admin_menu', function(){
-	add_options_page('social','social',1,SOCIAL_MENU_SLUG,function(){
+	add_options_page('social','social','Administrator',SOCIAL_MENU_SLUG,function(){
 		include __DIR__ . '/option.php';
 	});
 });
