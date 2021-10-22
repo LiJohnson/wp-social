@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: WP-SOCIAL
-Version: 0.0.1
+Version: 9.9.9
 Plugin URI:https://github.com/LiJohnson/wp-social
 Description: connect to social app
 Author: LiJohnson
